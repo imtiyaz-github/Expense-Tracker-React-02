@@ -1,0 +1,78 @@
+.head {
+  width: 90%;
+  max-width: 25rem;
+  padding: 1rem;
+  margin: 3rem auto;
+  text-align: center;
+  border-radius: 6px;
+  background-color: rgb(0, 12, 12);
+  text-align: center;
+  color: white;
+  box-shadow: 0 1px 4px rgb(0, 0, 0, 0.2);
+  margin-top: 6rem;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+.control label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: start;
+}
+.control input {
+  font: inherit;
+  width: 100%;
+  background-color: #1d0f26;
+  border-radius: 4px;
+  border: 1px solid rgb(244, 241, 241);
+  color: aliceblue;
+  padding: 0.25rem;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: rgb(21, 13, 39);
+  border-color: burlywood;
+  border: 1px solid burlywood;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: rgb(198, 140, 65);
+}
+
+.actions .toggle {
+  cursor: pointer;
+  margin-top: 1.2rem;
+  font: inherit;
+  color: white;
+  background-color: rgb(21, 13, 39);
+
+  border-color: rgb(21, 13, 39);
+  border: 1px solid burlywood;
+
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+.forget {
+  color: white;
+  background-color: #1d0f26;
+  border-color: burlywood;
+  border: 1px solid burlywood;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+  margin-top: 1rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.forget:hover {
+  background-color: rgb(198, 140, 65);
+}

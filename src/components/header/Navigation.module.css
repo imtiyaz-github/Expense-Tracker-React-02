@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    background-color: aliceblue;
+    justify-content: space-aro;
+  }
+  .navbar nav {
+    display: inline;
+    justify-content: space-around;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+  li {
+    padding-left: 30px;
+  }

@@ -1,0 +1,44 @@
+.expenses {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: cadetblue;
+  max-width: 100%;
+}
+.expenses form {
+  display: flex;
+  background-color: cadetblue;
+}
+.expenses1,
+.expenses2,
+.expenses3 {
+  margin-bottom: 10px;
+}
+.expenses1 label,
+.expenses2 label,
+.expenses3 label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.7rem;
+}
+
+.expenses1 input,
+.expenses2 input,
+.expenses3 select {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+.button {
+  padding: 8px 12px;
+  margin-left: 40px;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.button:hover {
+  background-color: rgb(182, 8, 43);
+}
